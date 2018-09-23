@@ -1,0 +1,15 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas: "menu menu menu miniMenu miniMenu";
+}
+
+#mainMenu {
+  grid-area: menu;
+  background-color: lime;
+}
+
+#miniMenu {
+  grid-area: miniMenu;
+  background-color: blue;
+}
